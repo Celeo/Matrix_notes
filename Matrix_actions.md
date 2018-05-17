@@ -48,7 +48,7 @@ Remove encryption from a file.
 
 ## Crash program
 
-> Action type: **Complex** \
+> Action type: **Simple** \
 > Marks required: **1** \
 > Test: `Cybercombat + LOG [Attack] v. Firewall + INT`
 
@@ -56,7 +56,7 @@ Crash target program. You must target a specific program that you know is runnin
 
 ## Data spike
 
-> Action type: **Complex** \
+> Action type: **Simple** \
 > Marks required: **None** \
 > Test: `Cybercombat + LOG [Attack] v. Firewall + INT`
 
@@ -294,3 +294,102 @@ Switch between AR and VR. You cannot switch another's mode. You cannot switch if
 > Test: `Computer + INT [DataP] v. Sleaze + WIL`
 
 Trace an device or persona to its physical location. You know their location as long as you have them marked.
+
+# Organized
+
+## By function
+
+| Device manipulation | Type |
+| --- | --- |
+| Control device | Variable |
+| Format device | Complex |
+| Reboot device | Complex |
+| spoof command | Complex |
+
+| File manipulation | Type |
+| --- | --- |
+| Crack file | Complex |
+| Set data bomb | Complex |
+| Disarm data bomb | Complex |
+| Edit file | Complex |
+
+| Information gathering | Type |
+| --- | --- |
+| Check overwatch score | Simple |
+| Matrix perception | Complex |
+| Matrix search | Special |
+| Snoop | Complex |
+| Trace icon | Complex |
+
+| Mark manipulation | Type |
+| --- | --- |
+| Brute force | Complex |
+| Erase mark | Complex |
+| Hack on the fly | Complex |
+| Invite mark | Simple |
+
+| Matrix combat | Type |
+| --- | --- |
+| Crash program | Simple |
+| Data spike | Simple |
+| Full Matrix defense | Interrupt |
+
+| Miscellaneous | Type |
+| --- | --- |
+| Change icon | Simple |
+| Enter/exit host | Complex |
+| Erase Matrix signature | Complex |
+| Grid hop | Complex |
+| Jack out | Simple |
+| Jam signals | Complex |
+| Jump into rigged device | Complex |
+| Send message | Simple |
+| Switch interface mode | Simple |
+
+## By limit
+
+| Attack | Type |
+| --- | --- |
+| Brute Force | Complex |
+| Crack File | Complex |
+| Crash Program | Complex |
+| Data Spike | Complex |
+| Erase Mark | Complex |
+| Erase Matrix Signature | Complex |
+| Jam Signals | Complex |
+
+| Sleaze | Type |
+| --- | --- |
+| Check Overwatch Score | Simple |
+| Crack File | Complex |
+| Format Device | Complex |
+| Hack on the Fly | Complex |
+| Hide | Complex |
+| Set Data Bomb | Complex |
+| Snoop | Complex |
+| Spoof Command | Complex |
+
+| Data Processing | Type |
+| --- | --- |
+| Change Icon | Simple |
+| Control Device* | Variable |
+| Edit File | Complex |
+| Enter/Exit Host | Complex |
+| Grid Hop | Complex |
+| Invite Mark | Simple |
+| Jump Into Rigged Device | Complex |
+| Matrix Perception | Complex |
+| Matrix Search | Special |
+| Reboot Device | Complex |
+| Send Message | Simple |
+| Switch Interface Mode | Simple |
+| Trace Icon | Complex |
+
+\* Control Device *might* be DataP, it depends
+
+| Firewall | Type |
+| --- | --- |
+| Disarm Data Bomb | Complex |
+| Erase Matrix Signature | Complex |
+| Full Matrix Defense | Interrupt |
+| Jack Out | Simple |
