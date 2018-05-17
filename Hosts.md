@@ -23,3 +23,63 @@ A host can launch 1 IC per combat turn, at the start, can have its rating in act
 The only IC running 24/7 usually is Patrol IC.
 
 ### Types
+
+All IC have an attack of `Host rating * 2 [Attack] v. Firewall + WIL` except for Patrol IC, which doesn't have an attack.
+
+#### Acid
+
+When it gets 1 or more net hits on an attack, it lowers your Firewall by 1 (cumulative). If your Firewall is 0 and it gets another net hit, it causes 1 DV of damage per net hit. Firewall reduction lasts until you reboot.
+
+#### Binder
+
+Same as Acid but for Data Processing.
+
+#### Black
+
+On a hit, it link-locks you and causes damage equal to (Attack rating) + (1 * net hit) + (2 * marks) **along with** and equal amount of biofeedback damage.
+
+#### Blaster
+
+Like Black IC, but the biofeedback damage is only stun.
+
+#### Crash
+
+On a hit where it has you marked, one of your programs (at random) crashes.
+
+#### Jammer
+
+Like Acid and Binder IC, but for Attack.
+
+#### Killer
+
+Like Blaster, but no biofeedback damage - just the Matrix damage.
+
+#### Marker
+
+Like Acid/Binder/Jammer but for Sleaze.
+
+#### Patrol
+
+Uses Matrix perception actions to look for personas making illegal actions inside the host.
+
+*Note*: Once you're inside a host, you're legally there, until you do something illegal.
+
+#### Probe
+
+Gets another mark on the target on a hit (up to 3; marks are shared amongst the host and all IC).
+
+#### Scramble
+
+If it hits when the host has 3 marks on you, you are forcibly rebooted.
+
+#### Sparky
+
+Like Blaster, but without link-locking.
+
+#### Tar baby
+
+Link-locks on a hit, unless you're already link-locked, in which case it gets a mark on you.
+
+#### Track
+
+If it hits and has 2 or more marks on you, the host and its owners get your physical location.
