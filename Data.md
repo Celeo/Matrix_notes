@@ -1012,7 +1012,7 @@ Increase the target's OS by 1 per hit.
 
 > Target: **Persona** \
 > Duration: **Immediate** \
-> Fading: **L+2** \
+> Fading: **L-1** \
 > Test: `Software + RES [level] v. Firewall + WIL`
 
 Do 1 Matrix damage per hit and reduce the target's Firewall by 1 until it has rebooted. The Firewall reduction does not stack with any other applications of this complex form.
@@ -1021,7 +1021,7 @@ Do 1 Matrix damage per hit and reduce the target's Firewall by 1 until it has re
 
 > Target: **Device or host** \
 > Duration: **Permanent** \
-> Fading: **L** \
+> Fading: **L-3** \
 > Test: `Software + RES [level], then (Immediate) Computer + INT + (level / 2) [level]`
 
 Make the first test to activate the complex form, then make the second test. Works like a "Matrix search" test, with a threshold of 6 for truly obscure or long-forgotten information. This works only on a device the technomancer physically has or on a host.
@@ -1030,7 +1030,7 @@ Make the first test to activate the complex form, then make the second test. Wor
 
 > Target: **Host** \
 > Duration: **Immediate** \
-> Fading: **L-2** \
+> Fading: **L-3** \
 > Test: `Software + RES [level] v. Sleaze + Rating`
 
 Learn up to the hits in IC that the host is able to deploy.
@@ -1039,7 +1039,7 @@ Learn up to the hits in IC that the host is able to deploy.
 
 > Target: **Device** \
 > Duration: **Sustain** \
-> Fading: **L** \
+> Fading: **L-3** \
 > Test: `Software + RES [level]`
 
 Grant temporary additional Matrix condition monitor boxes to the target for the duration.
@@ -1048,7 +1048,7 @@ Grant temporary additional Matrix condition monitor boxes to the target for the 
 
 > Target: **IC** \
 > Duration: **Permanent** \
-> Fading: **L+2** \
+> Fading: **L-1** \
 > Test: `Software + RES [level]`
 
 Tricks an IC program into thinking the technomancer's marks are its intended target, forcing it to ignore the technomancer for a number of Simple or Complex actions equal to the hits.
