@@ -654,7 +654,184 @@ The penality for using resonance actions. Resist with `RES + WIL`. This damage c
 
 # Complex form library
 
-TODO
+Complex forms that have a target of "device" can also be used on personas.
+
+Complex forms that have a duration of "Permanent" must first be sustained for their level in combat turns before the effect becomes permanent.
+
+## Cleaner
+
+> Target: **Persona** \
+> Duration: **Permanent** \
+> Fading: **L-2** \
+> Test: `Software + RES [level]`
+
+Reduce the target's OS by 1 per hit.
+
+## Diffusion of X
+
+> Target: **Device** \
+> Duration: **Sustain** \
+> Fading: **L-2** \
+> Test: `Software + RES [level] v. Firewall + WIL`
+
+Reduce one of the target's Matrix attributes by thet net hits, to a minimum of 1. This complex form must be taken separately per Matrix attribute.
+
+## Editor
+
+> Target: **File** \
+> Duration: **Permanent** \
+> Fading: **L-1** \
+> Test: `Software + RES [level] v. DataP + INT`
+
+Same as an "edit file" Matrix action, but does not require any marks.
+
+*Note*: common interpretation of this rule is that it bypasses protection. There is disagreement about what it does with data bombs, with bypassing and copying them alongside the file being the 2 most popular interpretations.
+
+## Infusion of X
+
+> Target: **Device** \
+> Duration: **Sustain** \
+> Fading: **L-2** \
+> Test: `Software + RES [level]`
+
+The level of this complex form must equal or exceed the value of the attribute being affected. The attribute is increased by the number of hits, up to twice the attribute's normal value. This complex form must be taken separately per Matrix attribute. If the attribute being boosted is swapped, this complex form ends.
+
+## Static veil
+
+> Target: **Persona** \
+> Duration: **Sustain** \
+> Fading: **L-3** \
+> Test: `Software + RES [level] v. threshold (1 or 2)`
+
+The threshold of the test is 1 if the target is on the public grid, or 2 otherwise. The target's OS does not increase due to time while sustained.
+
+## Pulse storm
+
+> Target: **Device** \
+> Duration: **Immediate** \
+> Fading: **L-3** \
+> Test: `Software + RES [level] vs. DataP + LOG`
+
+Target is affected by noise equal to the net hits.
+
+## Puppeteer
+
+> Target: **Device** \
+> Duration: **Immediate** \
+> Fading: **L+1** \
+> Test: `Software + RES [level] v. Firewall + WIL`
+
+Getting a single net hit allows you to force the target to make a Free Action of your choice, with 2 for a Simple Action, and 3 for a Complex Action. The target performs the action as their next action.
+
+## Resonance channel
+
+> Target: **Device** \
+> Duration: **Sustain** \
+> Fading: **L-3** \
+> Test: `Software + RES [level]`
+
+The target's noise **from distance** is reduced equal to the net hits.
+
+## Resonance spike
+
+> Target: **Device** \
+> Duration: **Immediate** \
+> Fading: **L-3** \
+> Test: `Software + RES [level] v. Firewall + WIL`
+
+Target takes 1 DV of Matrix damage per net hit, unresisted.
+
+Remember, this is a *resonance action*, not a *Matrix action*, so while the impact is real, the target literally won't know what hit them (assuming they're not a resonance being).
+
+## Resonance veil
+
+> Target: **Device** \
+> Duration: **Sustain** \
+> Fading: **L-3** \
+> Test: `Software + RES [level] v. DataP + INT`
+
+Matrix illusion. If the test is successful, even if the target believes it may be fake, they have to make a `Computer + INT [DataP] v. threshold` test where the threshold is your net hits to see through it.
+
+## Static bomb
+
+> Target: **Self** \
+> Duration: **Immediate** \
+> Fading: **L-1** \
+> Test: `Software + RES [level] v. DataP + INT`
+
+This test is made against all icons that have spotted you in one roll. Each icon you beat loses you. Any mark that has a mark on you is immune to this.
+
+## Stitches
+
+> Target: **Sprite** \
+> Duration: **Permanent** \
+> Fading: **L-3** \
+> Test: `Software + RES [level]`
+
+The sprite's Matrix condition monitor is replenished by the number of hits (to its natural maximum).
+
+## Transcendent grid
+
+> Target: **Self** \
+> Duration: **Immediate** \
+> Fading: **L-3** \
+> Test: `Software + RES [level]`
+
+You are counted as being on all grids and do not take the penalty from being on the public grid for 1 minute per hit.
+
+## Tattletale
+
+> Target: **Persona** \
+> Duration: **Permanent** \
+> Fading: **L-3** \
+> Test: `Software + RES [level]`
+
+Increase the target's OS by 1 per hit.
+
+## Derezz
+
+> Target: **Persona** \
+> Duration: **Immediate** \
+> Fading: **L+2** \
+> Test: `Software + RES [level] v. Firewall + WIL`
+
+Do 1 Matrix damage per hit and reduce the target's Firewall by 1 until it has rebooted. The Firewall reduction does not stack with any other applications of this complex form.
+
+## FAQ
+
+> Target: **Device or host** \
+> Duration: **Permanent** \
+> Fading: **L** \
+> Test: `Software + RES [level], then (Immediate) Computer + INT + (level / 2) [level]`
+
+Make the first test to activate the complex form, then make the second test. Works like a "Matrix search" test, with a threshold of 6 for truly obscure or long-forgotten information. This works only on a device the technomancer physically has or on a host.
+
+## IC Tray
+
+> Target: **Host** \
+> Duration: **Immediate** \
+> Fading: **L-2** \
+> Test: `Software + RES [level] v. Sleaze + Rating`
+
+Learn up to the hits in IC that the host is able to deploy.
+
+## Redundancy
+
+> Target: **Device** \
+> Duration: **Sustain** \
+> Fading: **L** \
+> Test: `Software + RES [level]`
+
+Grant temporary additional Matrix condition monitor boxes to the target for the duration.
+
+## Misread marks
+
+> Target: **IC** \
+> Duration: **Permanent** \
+> Fading: **L+2** \
+> Test: `Software + RES [level]`
+
+Tricks an IC program into thinking the technomancer's marks are its intended target, forcing it to ignore the technomancer for a number of Simple or Complex actions equal to the hits.
 
 # Sprites
 
