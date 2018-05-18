@@ -148,7 +148,207 @@ If it hits and has 2 or more marks on you, the host and its owners get your phys
 
 # Programs
 
-TODO
+## Commlink apps
+
+These apps are legal to own and use and can be used on commlinks. Commlinks can run a number of these apps equal to its device rating / 2, rounded up.
+
+### AR Games
+
+Games.
+
+### Diagnostics
+
+Gives vital statistics on all devices in the commlink's PAN. Works like a biomonitor for the PAN, altering the user to attacks.
+
+### P2.1
+
+Social networking.
+
+### Theme music
+
+Music based on the PAN's devices' stats.
+
+### Ticket
+
+An RSS feed of a specific topic. Halves Matrix search actions for that topic.
+
+## Common programs
+
+These programs are legal to own and use.
+
+### Browse
+
+Halves Matrix search time.
+
+### Configurator
+
+When you run this program, create an alternate Matrix attribute configuration for your deck. On your next reconfigure action, you may select this full configuration to switch to.
+
+### Edit
+
+Adds 2 to the DataP limit for any edit tests.
+
+### Encryption
+
++1 to Firewall.
+
+### Signal scrub
+
+Rating 2 noise reduction.
+
+### Toolbox
+
++1 to DataP.
+
+### Virtual machine
+
+Run 2 additional programs but take an unresisted extra box of Matrix damage whenever you take Matrix damage.
+
+### Bootstrap
+
+Allows the "format device" Matrix action to also set up commands that will run when the device next boots, like announcing its location, reconfiguring its Matrix attributes (if cyberdeck), recording actions taken, or spamming the user.
+
+### Search
+
++2 DP to Matrix search actions when looking for data on the host that contains that data.
+
+### Shredder
+
++2 to DataP when deleting a file. Files deleted like this (or by data bombs) are mangled, and recovering them requires constant access to the grid or host that it originated in, and a `Computer + Logic [Metal]` extended test (18, 1 week).
+
+## Hacking progarms
+
+These programs are illegal to own or use.
+
+### Armor
+
++2 DP to resist Matrix damage.
+
+### Baby monitor
+
+Freely check your OS.
+
+### Biofeedback
+
+When you cause Matrix damage, the target also takes an equal amount of biofeedback damage (assuming they are biological) which is either stun if they are in AR or cold-sim VR, or physical if they are in hot-sim VR. This applies to your failed Attack Matrix actions.
+
+Biofeedback damage is resisted by `Firewall + WIL`.
+
+### Biofeedback filter
+
++2 DP to resist biofeedback damage.
+
+### Blackout
+
+Like the Biofeedback program, but is always stun damage.
+
+### Decryption
+
++1 to Attack.
+
+### Defuse
+
++4 DP to resist damage from data bombs.
+
+### Demolition
+
++1 rating to data bombs you place.
+
+### Explorit
+
++2 to Sleaze when performing a "hack on the fly" Matrix action.
+
+### Fork
+
+Perform a single Matrix action against 2 targets. You roll your test once, both targets defend separately.
+
+### Guard
+
+Reduce damage you take from marks by 1 per mark.
+
+### Hammer
+
+Whenever you cause Matrix damage against anything other than you, deal the damage + 2.
+
+### Lockdown
+
+Whenever you cause damage to a persona, they are link-locked until you stop running this progarm.
+
+### Mugger
+
+Deal 1 bonus damage per mark.
+
+### Shell
+
++1 to resist Matrix damage and biofeedback damage. This stacks with other programs.
+
+### Sneak
+
++2 DP to defend against Trace User. Convergence while this is running will prevent the demiGOD from getting your physical location.
+
+### Stealth
+
++1 to Sleaze.
+
+### Track
+
++2 to DataP when making Trace User tests. If the target is running a Sneak program, this program *instead* cancels that bonus.
+
+### Wrapper
+
+Allows you to change icons you own to anything, regardless of the standard Matrix rules on iconography limits.
+
+### Cat's paw
+
+When performing "data spike" Matrix actions, instead of doing damage, the target is spammed with popups and distracting images, imposing upon the target a negative DP of 2 + number of marks. Marks added or removed after this action will modify the penalty.
+
+### Cloudless
+
+Allows using an "edit file" Matrix action to remove a file from the Matrix and store it offline only. This test is `Computer + LOG [DataP]` where the threshold is 6 for the public grid, 8 for a local grid, and 10 for a global grid.
+
+### Crash
+
++2 to DataP when attempting a "reboot device" Matrix action.
+
+### Detonator
+
+When setting a data bomb with this program running, the user can delay the explosion of the bomb until a specified number of actions have been taken against the file. Data bombs set with this program can also *just* delete the file. These special data bombs have a device rating of 3 and Sleaze equal to the number of remaining actions - 1 when tested against a Matrix perception action.
+
+### Evaluate
+
+Estimates how much some paydata might be worth.
+
+### Fly on a wall
+
+While running and the decker is only performing Matrix perception actions, their OS only raises by 1D6 every 30 minutes. Requires activation with a hide action.
+
+### Hitchhiker
+
+Allows taking non-hacker friends into foundations and UV hosts.
+
+### Nuke-from-orbit
+
+Files deleted with this program running a permanently deleted from the Matrix. OS from the opposed test is doubled. Offline backups and the resonance realms are the only way to retrieve this information.
+
+### Paintjob
+
++2 to Attack when attempting a "erase mark" Matrix action.
+
+### Smoke-and-mirrors
+
+Increase Sleaze by 1 to 5 while also being subject to the same amount of noise. This noise also applies to "trace icon" tests performed against the deck, but has no impact on convergence.
+
+### Swerve
+
++1 to Firewall when resisting a "reboot device" Matrix action.
+
+### Tantrum
+
+Causes "data spike" Matrix actions to forgo dealing damage and instead causing nausea in the target (cold/hot-sim deckers, all technomancers) for 3 combat turns.
+
+### Tarball
+
++2 to Attack and +1 DP to "crash program" Matrix actions, but the user cannot select which program is being targeted.
 
 # Matrix actions
 
