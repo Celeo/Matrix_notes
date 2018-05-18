@@ -9,6 +9,8 @@
 | Cutting Edge | 5 | Deltaware, credsticks, black-ops vehicles and security devices |
 | Bleeding edge | 6 | Billion-nuyen experimental devices, space craft |
 
+---
+
 # User modes
 
 | Name | Initiative | Inititiave Dice | Notes |
@@ -19,9 +21,13 @@
 
 The +2 granted by **Hot VR** only applies to *Matrix actions*, not Resonance actions or defense tests.
 
+---
+
 # Agents
 
 Autonomous programs. Are rated from 1 to 6. Running an agent requires a program slot on a cyberdeck. Agents use the deck's Matrix attributes, their rating for (standard) attributes, and Computer/Hacking/Cybercombat skills equal to their rating. Agents can also use other running programs on the deck. Agents use the deck's Matrix condition monitor, and don't have their own OS, but do have their own persona and icon.
+
+---
 
 # Noise
 
@@ -59,6 +65,8 @@ Autonomous programs. Are rated from 1 to 6. Running an agent requires a program 
 | Commercial area in a city | Wilderness, severe storm | 4 |
 | Commercial area in a sprawl | Remote place with satellite access only | 5 |
 | Massive gathering or during widespread emergency | Remote, enclosed place (cave / desert ruin) | 6 |
+
+---
 
 # Hosts
 
@@ -145,6 +153,8 @@ Link-locks on a hit, unless you're already link-locked, in which case it gets a 
 #### Track
 
 If it hits and has 2 or more marks on you, the host and its owners get your physical location.
+
+---
 
 # Programs
 
@@ -349,6 +359,8 @@ Causes "data spike" Matrix actions to forgo dealing damage and instead causing n
 ### Tarball
 
 +2 to Attack and +1 DP to "crash program" Matrix actions, but the user cannot select which program is being targeted.
+
+---
 
 # Matrix actions
 
@@ -647,6 +659,8 @@ Switch between AR and VR. You cannot switch another's mode. You cannot switch if
 
 Trace an device or persona to its physical location. You know their location as long as you have them marked.
 
+---
+
 # Organized
 
 ## By function
@@ -746,6 +760,8 @@ Trace an device or persona to its physical location. You know their location as 
 | Full Matrix Defense | Interrupt |
 | Jack Out | Simple |
 
+---
+
 # Living persona
 
 A technomancer's presence in the Matrix is represented by their living persona.
@@ -774,6 +790,8 @@ It differs from a decker's persona in the following ways:
 ## Rebooting
 
 Rebooting is the technomancer's choice. They can stil select the duration that their persona is absent from the Matrix and override that before the time is up.
+
+---
 
 # Resonance actions
 
@@ -851,6 +869,8 @@ The fading for this action is dependent on the complex form selected and the lev
 ## Fading
 
 The penality for using resonance actions. Resist with `RES + WIL`. This damage cannot be healed; you have to sleep it off.
+
+---
 
 # Complex form library
 
@@ -1033,6 +1053,8 @@ Grant temporary additional Matrix condition monitor boxes to the target for the 
 
 Tricks an IC program into thinking the technomancer's marks are its intended target, forcing it to ignore the technomancer for a number of Simple or Complex actions equal to the hits.
 
+---
+
 # Sprites
 
 Digital creatures formed or summoned out of the resonance. In play, they are personas without devices, a jumble of code that shouldn't work but does. They are as smart as agents, which is not very. They cannot be parts of a PAN or WAN.
@@ -1074,6 +1096,8 @@ Compiled sprites, upon completion of a remote task, return to the resonance.
 * Re-register for more tasks
 
 Compiled sprites, upon completion of a remote task, return to the technomancer.
+
+---
 
 # Sprite types and powers
 
@@ -1152,6 +1176,8 @@ All sprites have the Computer skill and have initiative dice of 4D6.
 * Data sprites are for getting information
 * Fault sprites are for combat
 * Machine sprites are for boosting or crashing devices
+
+---
 
 # Submersion
 
