@@ -374,7 +374,7 @@ Any action that is limited by Data Processing (DataP) or Firewall can be done on
 
 "Loud and proud" way of getting a mark on a target. Success means the target is alerted, and you also do 1 DV of Matrix damage for every 2 complete net hits in the test. Failure means, per normal Attack rules, you 1 box of unresisted Matrix damage per opponent's net hit. This can be performed in an attempt to place 2 marks at a -4 and 3 at -10.
 
-This can also be used to hop grids, with a test threshold of 4 for a local grid and 6 for a global grid. A successful test *does not* alert anyone.
+This can also be used to hop grids, with an opposed test DP of 4 for a local grid and 6 for a global grid. A successful test *does not* alert anyone.
 
 ## Change icon
 
@@ -578,7 +578,7 @@ To detect if there even are icons running silent within 100m, spend a hit on a M
 
 > Action type: **Special** \
 > Marks required: **none** \
-> Test: `Computer + INT [DataP]`
+> Test: `Extended Computer + INT [DataP]`
 
 Search for information on the Matrix. The duration of the test and threshold depend on availability and the search area, respectively. Hits above the threshold can be used to reduce the search time: divide the base time by the extra hits to calculate the reduction. Failure to meet the threshold means that you still spent the time looking.
 
@@ -658,6 +658,22 @@ Switch between AR and VR. You cannot switch another's mode. You cannot switch if
 > Test: `Computer + INT [DataP] v. Sleaze + WIL`
 
 Trace an device or persona to its physical location. You know their location as long as you have them marked.
+
+## Garbage in/garbage out
+
+> Action type: **Complex** \
+> Marks required: *3** \
+> Test: `Software + LOG [Sleaze] v. Firewall + LOG`
+
+Confuse the input and output commands of a device, remapping a single input to a single output. For example, a smartgun, when issued the fire command via DNI or the trigger, instead ejects the magazine, an elevator could go to the top floor instead of the lobby, or which group is targeted in a friend-or-foe system. Fixed by a reboot.
+
+## Traceback
+
+> Action type: **Special** \
+> Marks required: **4** \
+> Test: `Extended Computer + INT [DataP], 30 min`
+
+Cannot be performed inside a host. Requires having found a mark on a device you own, you trace the mark back to its owner's physical location. Requires hits of 10 + mark owner's Sleaze (reconfiguration updates the hits required). If the persona is running silent, the trace gets back to their vicinity.
 
 ---
 
