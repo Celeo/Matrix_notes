@@ -842,7 +842,7 @@ Command a sprite to do something.
 
 Compile a sprite.
 
-Fading is the sprite's hits (minimum 2), where the fading is physical if the sprite's level is greater than your resonance.
+Fading is 2x the sprite's hits (minimum 2), where the fading is physical if the sprite's level is greater than your resonance.
 
 ### Decompile sprite
 
@@ -851,7 +851,7 @@ Fading is the sprite's hits (minimum 2), where the fading is physical if the spr
 
 Attempt to decompile a sprite. This is used offensively; a sprite's compiler can just dismiss it with a simple action.
 
-Fading is the sprite's hits (minimum 2), where the fading is physical if the sprite's level is greater than your resonance.
+Fading is 2x the sprite's hits (minimum 2), where the fading is physical if the sprite's level is greater than your resonance.
 
 ### Kill complex form
 
@@ -864,12 +864,14 @@ Fading is equal to as if the complex form has been threaded by you originally.
 
 ### Register sprite
 
-> Action type: **Complex** \
+> Action type: **Special** \
 > Test: `Registering + RES [level] v. sprite level * 2`
 
 Attempt to register a sprite, where the level is up to your resonance * 2.
 
 Fading is the sprite's hits (minimum 2), where the fading is physical if the sprite's level is greater than your resonance.
+
+This takes a number of hours equal to the sprite's level.
 
 ### Thread complex form
 
@@ -884,7 +886,7 @@ The fading for this action is dependent on the complex form selected and the lev
 
 ## Fading
 
-The penality for using resonance actions. Resist with `RES + WIL`. This damage cannot be healed; you have to sleep it off.
+The penality for using resonance actions. Resist with `RES + WIL`. This damage cannot be healed; you have to sleep it off. The minimum DV of fading is 2 for a resonance action.
 
 ---
 
@@ -893,6 +895,8 @@ The penality for using resonance actions. Resist with `RES + WIL`. This damage c
 Complex forms that have a target of "device" can also be used on personas.
 
 Complex forms that have a duration of "Permanent" must first be sustained for their level in combat turns before the effect becomes permanent.
+
+The fading from threading a complex form is dependent on which form was used and the level it was used at, with a minimum of, as always, 2. This fading is physical if you get more hits than your resonance on the test, stun otherwise.
 
 ## Cleaner
 
@@ -1183,7 +1187,7 @@ All sprites have the Computer skill and have initiative dice of 4D6.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Courier | L | L+3 | L+1 | L+2 | (L*2)+1 | Hacking | Cookie, Hash |
 | Crack | L | L+3 | L+2 | L+1 | (L*2)+2 | EWar, Hacking | Suppression |
-| Data | L-1 | L | L+4 | L+1 | (L*2)+4 | EWar | Cookie, Watermark |
+| Data | L-1 | L | L+4 | L+1 | (L*2)+4 | EWar | Camouflage, Watermark |
 | Fault | L+3 | L | L+1 | L+2 | (L*2)+1 | Cybercombat, Hacking | Electron Storm |
 | Machine | L+1 | L | L+3 | L+2 | (L*2)+3 | EWar, Hardware | Diagnostics, Gremlins, Stability |
 
