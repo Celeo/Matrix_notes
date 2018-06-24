@@ -66,11 +66,15 @@ Autonomous programs. Are rated from 1 to 6. Running an agent requires a program 
 | Commercial area in a sprawl | Remote place with satellite access only | 5 |
 | Massive gathering or during widespread emergency | Remote, enclosed place (cave / desert ruin) | 6 |
 
+## Directly connected
+
+When devices that are physical connected to each other (e.g. cyberdeck to camera), tests are made without penalties from noise. When a device is being hacked like this, the device rolls its defense without any benefit from any PAN/WAN.
+
 ---
 
 # Hosts
 
-Hosts are cloud computing, spread over the entire globe on a specific grid. Hosts are reachable without noise penalties from distance. When inside a host, you can communicate with other icons inside the host without noise from distance, but cannot communicate with icons outside of it, with the exception of the "send message" action, and the inverse is also true. Hosts have IC and often have Matrix security personnel called spiders.
+Hosts are cloud computing, spread over the entire globe on a specific grid. Hosts are reachable without noise penalties from distance. When inside a host, you can communicate with other icons inside the host without noise from distance as all devices are considered directly connected to each other. When inside, you cannot control icons outside the host (sending messsages is fine), and the inverse is true. Hosts have IC and often have Matrix security personnel called spiders.
 
 ## Archives
 
@@ -83,6 +87,10 @@ Hosts all have a rating from 1 to 12. They also have the four Matrix attributes,
 ## Convergence
 
 OS continues to climb while inside a host (assuming you've done something illegal or do so while inside). When you hit the limit, the host gets 3 marks on you and starts launching IC. If you exit the host, GOD converges on you, so jack out from inside the host.
+
+## Accessing
+
+To get inside a host, a persona requires a mark on the host. This are distributed to valid users automatically, but hackers without this invitation require getting a mark on their own. This is done in the standard way, rolling against the host's attributes. Once the hacker has a mark on the host, they can enter the host without another test.
 
 ## IC
 
